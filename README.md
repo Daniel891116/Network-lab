@@ -25,3 +25,28 @@ $ ffplay -fflags nobuffer rtmp://{your server IP}/rtmp/live
 ```bash
 $ python3 client --ip {your server IP} --mode {mode}
 ```
+<table>
+  <tr>
+    <th>Mode </th>
+    <th>Effect</th>
+  </tr>
+  <tr>
+    <td>0(default)</td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>hand gesture</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>object recognition</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>pose detection</td>
+  </tr>
+</table>
+
+## Video LINK
+- https://youtu.be/S4Wq9ryygtE
